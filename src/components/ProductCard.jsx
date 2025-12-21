@@ -4,7 +4,7 @@ import React, { useContext, useState, useMemo } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import { AuthContext } from '../context/AuthContext'
 import { ProductContext } from '../context/ProductContext'
-import { useToast } from '../context/toastcontext'
+import { useToast } from '../context/ToastContext'
 import InlineToast from './InlineToast'
 import ProductModal from './ProductModal'
 

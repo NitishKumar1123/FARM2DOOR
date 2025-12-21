@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { ProductContext } from '../context/ProductContext';
 import { AuthContext } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
-import { useToast } from '../context/toastcontext';
+import { useToast } from '../context/ToastContext';
 import InlineToast from '../components/InlineToast'
 
 export default function Wishlist() {

@@ -2,7 +2,7 @@
 import React, { useContext, useEffect } from 'react'
 import { ProductContext } from '../context/ProductContext'
 import { AuthContext } from '../context/AuthContext'
-import { useToast } from '../context/toastcontext'
+import { useToast } from '../context/ToastContext'
 import { useNavigate, useLocation } from 'react-router-dom'
 import './Cart.css'
 

@@ -5,7 +5,7 @@ import { useNavigate, useLocation } from 'react-router-dom'
 
 import { AuthContext } from '../context/AuthContext'
 import { ProductContext } from '../context/ProductContext'
-import { useToast } from '../context/toastcontext'
+import { useToast } from '../context/ToastContext'
 
 import CategorySection from '../components/CategorySection'
 import ProductCard from '../components/ProductCard'
