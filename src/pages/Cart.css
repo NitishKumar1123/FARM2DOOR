@@ -1,0 +1,26 @@
+/* Page-specific styles for Cart page only */
+.cart-page {
+  /* soft, friendly green-tinted background suited for shopping cart */
+  background: linear-gradient(180deg, #f7fff9 0%, #eef7f0 100%);
+  min-height: calc(100vh - 80px);
+  padding-top: 28px;
+}
+
+.cart-actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.btn-outline {
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: transparent;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.empty-state .btn-outline {
+  margin-top: 12px;
+}
