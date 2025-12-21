@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-route
 
 import { AuthProvider, AuthContext } from './context/AuthContext'
 import { ProductProvider } from './context/ProductContext'
-import { ToastProvider } from './context/toastcontext' // NEW: Toasts provider
+import { ToastProvider } from './context/toastContext' // NEW: Toasts provider
 
 import Header from './components/Header'
 import BottomNav from './components/BottomNav'
